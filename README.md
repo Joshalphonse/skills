@@ -10,6 +10,11 @@ skills/mux-docs/
                 # LLM-ready docs (mux.com/llms.txt, collection indexes,
                 # per-page markdown) so answers come from today's
                 # published docs, not snapshots or model memory
+skills/mux-migration/
+└── SKILL.md    # Migrations to Mux from Cloudflare Stream, JW Player,
+                # api.video, Vimeo, Brightcove, or self-managed stacks:
+                # inventory, feature mapping, cost gate, pilot batch,
+                # bulk import, validation, and playback cutover
 ```
 
 Mux publishes every docs page as LLM-ready markdown, indexed at [mux.com/llms.txt](https://www.mux.com/llms.txt). The `mux-docs` skill teaches agents to fetch the relevant page at answer time — API shapes, guides, Mux Data, Mux Robots, pricing — and to self-heal through `llms.txt` when URLs move. No documentation content lives in this repo, so nothing here goes stale.
