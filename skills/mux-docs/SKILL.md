@@ -46,7 +46,7 @@ Robots — Mux's AI-powered video workflows — are generally available on the v
 | Supported languages | https://www.mux.com/docs/guides/robots-supported-languages.md |
 | Migrate from Beta (v0) to v1 | https://www.mux.com/docs/guides/robots-migrate-to-v1.md |
 
-Task-specific guides follow the pattern `https://www.mux.com/docs/guides/robots-<task>.md`, where `<task>` is one of: `analyze-structure`, `summarize`, `generate-chapters`, `generate-contextual-text`, `ask-questions`, `find-key-moments`, `find-best-thumbnails`, `generate-engagement-insights`, `moderate`, `generate-premium-captions`, `edit-captions`, `translate-captions`, `translate-audio`. `find-scenes` is Beta-only; on v1, scenes come from `analyze-structure`.
+Task-specific guides follow the pattern `https://www.mux.com/docs/guides/robots-<task>.md`, where `<task>` is one of: `analyze-structure`, `summarize`, `generate-chapters`, `generate-contextual-text`, `ask-questions`, `find-key-moments`, `find-best-thumbnails`, `generate-engagement-insights`, `moderate`, `generate-premium-captions`, `edit-captions`, `translate-captions`, `translate-audio`. For scenes, use `analyze-structure`.
 
 Migration guides follow `https://www.mux.com/docs/guides/robots-migrate-<topic>-to-v1.md`, where `<topic>` is `directives`, `webhooks`, or `typescript-sdk`.
 
